@@ -36,10 +36,6 @@ a:hover {
   color: #54DEFD !important;
 }
 
-.navbar-brand .uil {
-  font-size: 40px;
-}
-
 p {
   font-size: 18px;
   font-weight: 300;
@@ -299,8 +295,8 @@ b, strong {
   color: #ffffff;
 }
 .dark-mode .feature-card .uil,
-.dark-mode .navbar-light .navbar-brand,
-.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
+.dark-mode .navbar-light .navbar-brand .carousel-inner,
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6, .dark-mode p,
 .dark-mode .color-mode {
   color: #ffffff;
 }
@@ -356,6 +352,11 @@ b, strong {
   display: inline-block;
   vertical-align: middle;
   margin-left: 15px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(100%);
 }
 
 .owl-carousel .owl-nav span {

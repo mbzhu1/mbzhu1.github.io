@@ -64,12 +64,6 @@ a {
 	}
 }
 
-.navbar-brand {
-	.uil {
-		font-size: 40px;
-	}
-}
-
 
 // TYPOGRAPHY
 p {
@@ -344,8 +338,8 @@ b, strong {
 		color: $text-white;
 	}
 	.feature-card .uil,
-	.navbar-light .navbar-brand,
-	h1, h2, h3, h4, h5, h6,
+	.navbar-light .navbar-brand .carousel-inner,
+	h1, h2, h3, h4, h5, h6, p,
 	.color-mode {
 		color: $text-white;
 	}
@@ -409,6 +403,14 @@ b, strong {
     	margin-left: 15px;
 	}
 }
+
+//Carousel
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    filter: invert(100%);
+}
+
+
 
 
 // OWL CAROUSEL
